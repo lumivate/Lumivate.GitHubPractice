@@ -72,17 +72,6 @@ public class QuizManager
             new Question("In tennis, what is the term for a score of zero?", new List<string> { "Nil", "Zip", "Love", "Nought" }, 2)
         }));
 
-        _quizzes.Add(new Quiz("Science Facts", new List<Question>
-        {
-            new Question("What is the chemical symbol for water?", new List<string> { "WA", "H2O", "HO2", "OW" }, 1),
-            new Question("How many bones are in the adult human body?", new List<string> { "186", "196", "206", "216" }, 2),
-            new Question("What is the speed of light approximately?", new List<string> { "300,000 km/s", "150,000 km/s", "450,000 km/s" }, 0),
-            new Question("What planet is closest in size to Earth?", new List<string> { "Mars", "Venus", "Mercury", "Neptune" }, 1),
-            new Question("What gas do plants absorb from the atmosphere?", new List<string> { "Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen" }, 2),
-            new Question("What is the powerhouse of the cell?", new List<string> { "Nucleus", "Ribosome", "Mitochondria", "Vacuole" }, 2),
-            new Question("What is the atomic number of carbon?", new List<string> { "4", "6", "8", "12" }, 1)
-        }));
-
         _quizzes.Add(new Quiz("Music Theory", new List<Question>
         {
             new Question("How many lines are on a standard musical staff?", new List<string> { "4", "5", "6", "8" }, 1),
