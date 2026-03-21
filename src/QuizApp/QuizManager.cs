@@ -85,6 +85,24 @@ public class QuizManager
             new Question("What is the powerhouse of the cell?", new List<string> { "Nucleus", "Ribosome", "Mitochondria", "Vacuole" }, 2),
             new Question("What is the atomic number of carbon?", new List<string> { "4", "6", "8", "12" }, 1)
         }));
+
+        // PR 4: Add themes 9-10
+        _quizzes.Add(new Quiz("Music Theory", new List<Question>
+        {
+            new Question("How many lines are on a standard musical staff?", new List<string> { "4", "5", "6", "8" }, 1),
+            new Question("What does the musical term 'forte' mean?", new List<string> { "Soft", "Fast", "Loud", "Slow" }, 2),
+            new Question("Which of these is not a musical clef?", new List<string> { "Treble", "Bass", "Alto", "Soprano" }, 3),
+            new Question("How many beats does a whole note typically get in 4/4 time?", new List<string> { "1", "2", "3", "4" }, 3)
+        }));
+
+        _quizzes.Add(new Quiz("Coding Basics", new List<Question>
+        {
+            new Question("What does HTML stand for?", new List<string> { "Hyper Text Markup Language", "High Tech Machine Learning", "Hyper Transfer Main Link" }, 0),
+            new Question("Which symbol is commonly used to denote a comment in C#?", new List<string> { "#", "<!--", "//", "--" }, 2),
+            new Question("What is the result of 5 % 2?", new List<string> { "2", "2.5", "1", "0" }, 2),
+            new Question("Which data type is used to store a true or false value?", new List<string> { "int", "string", "boolean", "float" }, 2),
+            new Question("What is an array?", new List<string> { "A function", "A collection of items", "A type of loop", "A database" }, 1)
+        }));
     }
 
     public void Run()
