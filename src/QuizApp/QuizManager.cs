@@ -12,7 +12,6 @@ public class QuizManager
 
     private void LoadQuizzes()
     {
-        // PR 1: Add first 2 themes
         _quizzes.Add(new Quiz("Space Exploration", new List<Question>
         {
             new Question("What is the largest planet in our solar system?", new List<string> { "Earth", "Mars", "Jupiter", "Saturn" }, 2),
@@ -28,7 +27,6 @@ public class QuizManager
             new Question("What do pandas primarily eat?", new List<string> { "Fish", "Bamboo", "Insects", "Berries", "Nuts" }, 1)
         }));
 
-        // PR 2: Add themes 3-5
         _quizzes.Add(new Quiz("Video Games", new List<Question>
         {
             new Question("What is the name of the plumber hero in Nintendo's most famous franchise?", new List<string> { "Luigi", "Mario", "Wario", "Toad" }, 1),
@@ -55,7 +53,6 @@ public class QuizManager
             new Question("What year was the original Star Wars (A New Hope) released?", new List<string> { "1975", "1977", "1980", "1983" }, 1)
         }));
 
-        // PR 3: Add themes 6-8
         _quizzes.Add(new Quiz("Food and Cooking", new List<Question>
         {
             new Question("What is the main ingredient in traditional guacamole?", new List<string> { "Tomato", "Avocado", "Lime", "Onion" }, 1),
@@ -86,7 +83,6 @@ public class QuizManager
             new Question("What is the atomic number of carbon?", new List<string> { "4", "6", "8", "12" }, 1)
         }));
 
-        // PR 4: Add themes 9-10
         _quizzes.Add(new Quiz("Music Theory", new List<Question>
         {
             new Question("How many lines are on a standard musical staff?", new List<string> { "4", "5", "6", "8" }, 1),
