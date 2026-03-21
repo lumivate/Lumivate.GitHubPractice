@@ -23,4 +23,18 @@ Students can easily add new quizzes by adding a new `Quiz` object to the `_quizz
 ## Current Themes
 1. Space Exploration
 2. Animal Trivia
-*(More themes coming soon!)*
+3. Video Games
+4. World Geography
+5. Classic Movies
+6. Food and Cooking
+7. Sports
+8. Science Facts
+9. Music Theory
+10. Coding Basics
+
+## How to Contribute
+1. Create a new branch.
+2. Open `src/QuizApp/QuizManager.cs`.
+3. Add a new `Quiz` object to the `_quizzes` list in the `LoadQuizzes` method.
+4. Add your 3-7 questions.
+5. Commit, push, and create a Pull Request!
