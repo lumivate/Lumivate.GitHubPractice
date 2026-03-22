@@ -14,27 +14,25 @@ The architecture is designed to be highly approachable for beginners:
 
 Students can easily add new quizzes by adding a new `Quiz` object to the `_quizzes` list in `QuizManager.cs`.
 
-## How to Run
-1. Ensure you have the [.NET SDK](https://dotnet.microsoft.com/download) installed.
-2. Clone the repository.
-3. Navigate to the `src/QuizApp` directory.
-4. Run the command: `dotnet run`
-
-## Current Themes
-1. Space Exploration
-2. Animal Trivia
-3. Video Games
-4. World Geography
-5. Classic Movies
-6. Food and Cooking
-7. Sports
-8. Science Facts
-9. Music Theory
-10. Coding Basics
-
 ## How to Contribute
-1. Create a new branch.
-2. Open `src/QuizApp/QuizManager.cs`.
-3. Add a new `Quiz` object to the `_quizzes` list in the `LoadQuizzes` method.
-4. Add your 3-7 questions.
-5. Commit, push, and create a Pull Request!
+- On your PC, navigate to the folder you want to clone the repository into.
+  - This is usually in C:\Users\me\source\repos\
+- Right-click in the folder and select "Git Bash Here" to open the Git Bash terminal directly in that location.
+  - Alternatively, you can open the "Git Bash" application from your start menu and navigate to the desired folder using the `cd` command.
+- In github.com, click the green "Code" button and copy the URL of the repository. Make sure you are on the main page of the repository to find this button.
+- Clone the repository to your local machine.
+  - Go back to Git Bash, and type `git clone ` followed by the URL you copied from GitHub. 
+  - For example: git clone https://github.com/johncross116/Lumivate.GitHubPractice.git
+- In Git Bash, navigate to the newly cloned repository folder (cd Lumivate.GitHubPractice).
+- Create a new branch. (git checkout -b my-branch-name)
+- Open the app in Visual Studio (click the .sln file in the root folder of the repo).
+- Open `src/QuizApp/QuizManager.cs`.
+- Add a new `Quiz` object to the `_quizzes` list in the `LoadQuizzes` method.
+- Add your questions.
+- Stage your changes (git add src/QuizApp/QuizManager.cs)
+- Commit (git commit -m "Add new quiz: [Your Quiz Name]")
+- Push. Since you are checking your branch in for the first time you will need to add `origin` to tell it where to push to.
+  - git push origin my-branch-name
+- Head back to GitHub and you should see a prompt to create a pull request for your branch. Click that and fill out the form to submit your changes for review.
+  - If you don't see the prompt, you can go to the "Pull Requests" tab in the repository and click "New Pull Request". Then select your branch from the dropdown menu to compare it with the main branch and create the pull request.
+- That's it! One of the coaches will see your Pull Request and merge it in soon :)
