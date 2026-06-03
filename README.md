@@ -22,7 +22,7 @@ Students can easily add new quizzes by adding a new `Quiz` object to the `_quizz
 - In github.com, click the green "Code" button and copy the URL of the repository. Make sure you are on the main page of the repository to find this button.
 - Clone the repository to your local machine.
   - Go back to Git Bash, and type `git clone ` followed by the URL you copied from GitHub. 
-  - For example: git clone https://github.com/johncross116/Lumivate.GitHubPractice.git
+  - For example: git clone https://github.com/lumivate/Lumivate.GitHubPractice.git
 - In Git Bash, navigate to the newly cloned repository folder (cd Lumivate.GitHubPractice).
 - Create a new branch. (git checkout -b my-branch-name)
 - Open the app in Visual Studio (click the .sln file in the root folder of the repo).
