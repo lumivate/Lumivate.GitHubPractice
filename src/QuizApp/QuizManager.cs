@@ -91,6 +91,15 @@ public class QuizManager
             new Question("How many beats does a whole note typically get in 4/4 time?", new List<string> { "1", "2", "3", "4" }, 3)
         }));
 
+        _quizzes.Add(new Quiz("Git Basics", new List<Question>
+        {
+            new Question("Which command shows your working-tree status?", new List<string> { "git status", "git log", "git branch", "git remote -v" }, 0),
+            new Question("Which command creates and switches to a new branch named nick/add-quiz?", new List<string> { "git checkout main", "git checkout -b nick/add-quiz", "git branch --show-current", "git pull" }, 1),
+            new Question("Which command displays the name of your current branch?", new List<string> { "git diff", "git remote -v", "git branch --show-current", "git log -1" }, 2),
+            new Question("Which command lists the configured remote URLs?", new List<string> { "git status", "git checkout main", "git branch", "git remote -v" }, 3),
+            new Question("What does git pull --ff-only do when the histories have diverged?", new List<string> { "Creates a merge commit", "Refuses the update", "Deletes local commits", "Force-pushes the branch" }, 1)
+        }));
+
         _quizzes.Add(new Quiz("Coding Basics", new List<Question>
         {
             new Question("What does HTML stand for?", new List<string> { "Hyper Text Markup Language", "High Tech Machine Learning", "Hyper Transfer Main Link" }, 0),
